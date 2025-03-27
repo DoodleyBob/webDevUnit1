@@ -22,6 +22,13 @@
 
     <script>
         // Write your function here
+        var myList = document.getElementById("myList")
+        
+
+        function insertItem(){
+            var item = document.createElement("li").innerText = "New Item";
+            myList.append(item);
+        }
     </script>
 </body>
 </html>
